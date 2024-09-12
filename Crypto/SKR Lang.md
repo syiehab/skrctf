@@ -1,11 +1,14 @@
 # SKR Lang
 
-## I made a language that only have 3 letters, lets see how secure it is:
-SKRrRRrrRrRrRrSKrRrrRSKRRrRRRrRrrRRrrrrrrRrSKrrrrRRrRrrRrrRrrrRrRSKrrrrRSKRrRRRRrrrrrrRRRRrRSKRrRrrRrrrrrrRRSKrrRRRrRrRrrRrRRrRrrrrSKRRRrrrrrRRrRrSKRrSKRrrRRSKrrrRrRrRrrRRRrrRRRSKrRRRrRRRRSKrrrrrRrRrRRRRrrRrrrSKrrRSKrRRrrRrrrRRrrrRSKRRRRRRRRRrrrrRrSKrrRRRRRrrRRrrrrSKrrrrrrRRrRRrrrrSKrrRRRRrrrRRr
+### I made a language that only have 3 letters, lets see how secure it is:
+```SKRrRRrrRrRrRrSKrRrrRSKRRrRRRrRrrRRrrrrrrRrSKrrrrRRrRrrRrrRrrrRrRSKrrrrRSKRrRRRRrrrrrrRRRRrRSKRrRrrRrrrrrrRRSKrrRRRrRrRrrRrRRrRrrrrSKRRRrrrrrRRrRrSKRrSKRrrRRSKrrrRrRrRrrRRRrrRRRSKrRRRrRRRRSKrrrrrRrRrRRRRrrRrrrSKrrRSKrRRrrRrrrRRrrrRSKRRRRRRRRRrrrrRrSKrrRRRRRrrRRrrrrSKrrrrrrRRrRRrrrrSKrrRRRRrrrRRr```
 
-Flag format: Capital letters with no spaces SKR{DECODEDMESSAGE}
+### Flag format: Capital letters with no spaces SKR{DECODEDMESSAGE}
 
-Difficulty: Hard
+### Difficulty: Hard
+
+After observing the pattern 
+
 
 ```
 import string
