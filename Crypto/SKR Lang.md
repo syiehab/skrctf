@@ -9,9 +9,9 @@
 ### Hint: Count and remember lower and upper does not matter
 
 
-After observing the pattern of the cipher text and the hint, I figured that we need to count the letter R in between the letters "SK"
+After observing the pattern of the cipher text and the hint, I figured that we need to count the letter ```R``` in between the letters ```SK```
 
-So I made a code to print the number of letter R between SK and append an ascii letters based on the index
+So I made a code to print the number of letter ```R``` between ```SK``` and print the corresponding ascii character
 
 
 ```
@@ -40,13 +40,14 @@ print(flag)
 decodedtext = ""
 
 for i in flag:
-    decodedtext += string.ascii_uppercase[i]
+    decodedtext += string.ascii_uppercase[i-1]
 
 print(decodedtext)
 ```
 
-Then take the decoded text to [This tool](https://www.dcode.fr/rot1-cipher) to decode the message
+The output:
+![image](https://github.com/user-attachments/assets/280e9ad5-2c0f-498f-85f1-ad8969e40f5c)
 
-![image](https://github.com/user-attachments/assets/b97c58c1-8919-4ae0-a2fb-91ca91eaf234)
+
 
 Flag: ```SKR{LETTERNUMBERISCOOOOL}```
