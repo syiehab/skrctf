@@ -1,3 +1,12 @@
+# SKR Lang
+
+## I made a language that only have 3 letters, lets see how secure it is:
+SKRrRRrrRrRrRrSKrRrrRSKRRrRRRrRrrRRrrrrrrRrSKrrrrRRrRrrRrrRrrrRrRSKrrrrRSKRrRRRRrrrrrrRRRRrRSKRrRrrRrrrrrrRRSKrrRRRrRrRrrRrRRrRrrrrSKRRRrrrrrRRrRrSKRrSKRrrRRSKrrrRrRrRrrRRRrrRRRSKrRRRrRRRRSKrrrrrRrRrRRRRrrRrrrSKrrRSKrRRrrRrrrRRrrrRSKRRRRRRRRRrrrrRrSKrrRRRRRrrRRrrrrSKrrrrrrRRrRRrrrrSKrrRRRRrrrRRr
+
+Flag format: Capital letters with no spaces SKR{DECODEDMESSAGE}
+
+Difficulty: Hard
+
 ```
 import string
 
@@ -28,3 +37,4 @@ for i in flag:
 
 print(decodedtext)
 ```
+![image](https://github.com/user-attachments/assets/b97c58c1-8919-4ae0-a2fb-91ca91eaf234)
