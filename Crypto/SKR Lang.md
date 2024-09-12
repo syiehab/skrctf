@@ -1,13 +1,17 @@
 # SKR Lang
 
-### I made a language that only have 3 letters, lets see how secure it is:
+## I made a language that only have 3 letters, lets see how secure it is:
 ```SKRrRRrrRrRrRrSKrRrrRSKRRrRRRrRrrRRrrrrrrRrSKrrrrRRrRrrRrrRrrrRrRSKrrrrRSKRrRRRRrrrrrrRRRRrRSKRrRrrRrrrrrrRRSKrrRRRrRrRrrRrRRrRrrrrSKRRRrrrrrRRrRrSKRrSKRrrRRSKrrrRrRrRrrRRRrrRRRSKrRRRrRRRRSKrrrrrRrRrRRRRrrRrrrSKrrRSKrRRrrRrrrRRrrrRSKRRRRRRRRRrrrrRrSKrrRRRRRrrRRrrrrSKrrrrrrRRrRRrrrrSKrrRRRRrrrRRr```
+## Flag format: Capital letters with no spaces SKR{DECODEDMESSAGE}
+## Difficulty: Hard
 
-### Flag format: Capital letters with no spaces SKR{DECODEDMESSAGE}
+### Hint: The message total 20 letters
+### Hint: Count and remember lower and upper does not matter
 
-### Difficulty: Hard
 
-After observing the pattern 
+After observing the pattern of the cipher text and the hint, I figured that we need to count the letter R in between the letters "SK"
+
+So I made a code to print the number of letter R between SK and append an ascii letters based on the index
 
 
 ```
@@ -40,4 +44,9 @@ for i in flag:
 
 print(decodedtext)
 ```
+
+Then take the decoded text to [This tool](https://www.dcode.fr/rot1-cipher) to decode the message
+
 ![image](https://github.com/user-attachments/assets/b97c58c1-8919-4ae0-a2fb-91ca91eaf234)
+
+Flag: ```SKR{LETTERNUMBERISCOOOOL}```
